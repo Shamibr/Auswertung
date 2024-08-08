@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1311</width>
+    <height>791</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">rg</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1291</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item row="1" column="1">
+      <widget class="QFrame" name="horizontalFrame">
+       <property name="accessibleDescription">
+        <string/>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">rgb
+font: 700 9pt &quot;Nirmala UI&quot;;
+font: 700 italic 9pt &quot;Segoe UI&quot;;
+QPushButton {
+    background-color: #ADD8E6; /* Hellblau */
+    border: 1px solid #1E90FF; /* Dunkleres Blau für den Rahmen */
+    color: black; /* Textfarbe */
+    padding: 5px 15px; /* Innenabstand */
+    border-radius: 5px; /* Abgerundete Ecken */
+}</string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout"/>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="smoothButton">
+       <property name="font">
+        <font>
+         <family>Verdana</family>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">rgb
+font: 700 9pt &quot;Nirmala UI&quot;;
+font: 700 italic 9pt &quot;Segoe UI&quot;;
+QPushButton {
+    background-color: #ADD8E6; /* Hellblau */
+    border: 1px solid #1E90FF; /* Dunkleres Blau für den Rahmen */
+    color: black; /* Textfarbe */
+    padding: 5px 15px; /* Innenabstand */
+    border-radius: 5px; /* Abgerundete Ecken */
+}</string>
+       </property>
+       <property name="text">
+        <string>Smooth Curve </string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="loadButton">
+       <property name="font">
+        <font>
+         <family>Verdana</family>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">rgb
+font: 700 9pt &quot;Nirmala UI&quot;;
+font: 700 italic 9pt &quot;Segoe UI&quot;;
+QPushButton {
+    background-color: #ADD8E6; /* Hellblau */
+    border: 1px solid #1E90FF; /* Dunkleres Blau für den Rahmen */
+    color: black; /* Textfarbe */
+    padding: 5px 15px; /* Innenabstand */
+    border-radius: 5px; /* Abgerundete Ecken */
+}</string>
+       </property>
+       <property name="text">
+        <string>Load CSV</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1311</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
